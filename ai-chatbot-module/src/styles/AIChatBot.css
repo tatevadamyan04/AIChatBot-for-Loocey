@@ -1,0 +1,206 @@
+/* Basic Styling for AIChatBotModule - Expand considerably */
+
+/* Overall container for the widget */
+.chat-widget-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Button to open the chat when closed */
+.chat-widget-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Circular button */
+    width: 60px;
+    height: 60px;
+    font-size: 16px; /* Adjust as needed */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-widget-button:hover {
+    background-color: #0056b3;
+}
+
+/* The main chat window */
+.chat-window {
+    width: 350px; /* Adjust width */
+    max-height: 500px; /* Adjust max height */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    overflow: hidden; /* Prevent content overflow */
+    font-family: sans-serif; /* Basic font */
+}
+
+/* Chat window header */
+.chat-window-header {
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    border-bottom: 1px solid #dee2e6;
+    display: flex; /* Use flex for alignment */
+    justify-content: space-between; /* Space out title and buttons */
+    align-items: center;
+}
+
+.chat-window-header h2 {
+    margin: 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.chat-header-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9em;
+    color: #6c757d;
+    margin-left: 8px;
+}
+.chat-header-button:hover {
+    color: #000;
+}
+
+
+/* Area where messages are displayed */
+.message-list {
+    flex-grow: 1; /* Allow this section to take available space */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 15px;
+    background-color: #f1f1f1; /* Light background for messages */
+    display: flex;
+    flex-direction: column; /* Stack messages */
+    gap: 10px; /* Space between messages */
+}
+
+/* Individual message item */
+.message-item {
+    padding: 8px 12px;
+    border-radius: 15px; /* Rounded bubbles */
+    max-width: 80%; /* Prevent messages from taking full width */
+    word-wrap: break-word; /* Break long words */
+}
+
+.message-item p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* User message styling */
+.message-user {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end; /* Align user messages to the right */
+    border-bottom-right-radius: 5px; /* Slightly different rounding */
+}
+
+/* AI message styling */
+.message-ai {
+    background-color: #e9ecef;
+    color: #333;
+    align-self: flex-start; /* Align AI messages to the left */
+    border-bottom-left-radius: 5px; /* Slightly different rounding */
+}
+
+/* Loading indicator styling */
+.message-loading {
+    align-self: flex-start;
+    color: #6c757d;
+}
+
+/* Prompt shortcuts area */
+.prompt-shortcuts {
+    padding: 10px 15px;
+    border-top: 1px solid #dee2e6;
+    background-color: #f8f9fa; /* Slightly different background */
+}
+
+.shortcuts-title {
+    font-size: 0.85em;
+    color: #6c757d;
+    margin: 0 0 5px 0;
+}
+
+.shortcut-button {
+    background-color: #e2e6ea;
+    color: #333;
+    border: 1px solid #ced4da;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.shortcut-button:hover {
+    background-color: #d6dbe0;
+}
+
+.shortcut-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Message input area */
+.message-input-area {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically align items */
+    padding: 10px 15px;
+    border-top: 1px solid #dee2e6;
+    background-color: #ffffff;
+}
+
+.message-input-field {
+    flex-grow: 1; /* Input takes available space */
+    padding: 8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 20px; /* Rounded input */
+    margin-right: 8px;
+    font-size: 0.9em;
+}
+
+.message-input-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Circular button */
+    width: 36px; /* Adjust size */
+    height: 36px;
+    font-size: 0.9em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px; /* Space between buttons */
+}
+.message-input-button.attach-button {
+    background-color: #6c757d; /* Different color for attach */
+}
+
+.message-input-button:hover {
+    opacity: 0.9;
+}
+
+.message-input-button:disabled {
+    background-color: #adb5bd;
+    cursor: not-allowed;
+}
+
+.selected-file-name {
+    font-size: 0.8em;
+    color: #6c757d;
+    margin-left: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100px; /* Limit file name display width */
+}

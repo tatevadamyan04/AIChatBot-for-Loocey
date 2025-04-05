@@ -1,0 +1,140 @@
+how to create search filters in Loocey and filter the RFQ list using multiple FSC codes 
+
+let's get started go to D
+rfqs click on simple rfqs tab this will
+have some predefined
+filters click on
+filters and you'll see the existing
+filters click on ADD filter then select
+FSC code for the
+column then in for addition then enter
+list of FSC codes that you'd like to
+search by one per
+line let's use these FSC codes for this
+example then click on apply system
+filter the list and show the rfqs
+matching with the FSC codes we
+entered click on Save then save as new
+to save our search as a new
+view let's call the new view my FSC
+search and hit save
+now let's click on our new search and
+you can see the filtered FSC codes
+
+
+how to use the new packaging tool in Loocey
+
+go to Drfqs scroll to the right select an RFQ
+ideally one that has military packaging
+this is packaging code mil STD 20731
+e then click the three dots and select
+packaging info this will bring up a new
+packaging details popup and you can
+scroll down to check all the details
+packaging info tool will parse out the
+packaging
+instructions and add the descriptions
+for each code as
+well next you can click on generate PDF
+to generate the pdf version of the
+instructions then you can save the PDF
+for your records note the PDF also has
+the solicitation number NSN and quantity
+at the top as well to make it easier to
+identify the contract while you're
+packing
+packaging tool is also accessible from
+the bidding board go to the bidding
+board select a
+solicitation and you will see the same
+packaging option in the three dots
+menu and the same popup will work from
+the bidding board as well
+
+
+
+how to update supplier emails and Luc see if they're missing or have changed
+
+sometimes when you copy an RFQ
+to the bidding board some of the
+approved sources could show email
+missing let's see an example go to rfqs
+and copy a few items to the bidding
+board select desired
+rfqs then click on Three Dots and copy
+to the bidding board click on
+copy when copy is done let's go to the
+bidding board and open an
+item open the
+RFQ and then in supplier quotes section
+select all approved
+sources then click on Three Dots and
+open bulk email sender as you click on
+different suppliers you'll see that some
+have the
+email and some don't but that's okay we
+can easily fix this note if you update a
+supplier email next time the same
+supplier comes up in the list it will
+have the email as it's a global update
+we'll test this in a few
+seconds to update supplier email click
+in suppliers item on the left
+menu then simply search or find the
+specific supplier that you want to
+update then simply update the email in
+the
+table and hit
+save usually the website link is
+available and you can navigate to the
+supplier website and locate their sales
+contact email
+let's update email of one of the
+suppliers we just copied and test if it
+worked once the email is updated go back
+to the contract details
+Page search the contract open the item
+then open bulk email sender and check
+that specific supplier that had email
+missing
+before then click on three dots you'll
+see that the email is now
+showing let's do one more test we'll
+delete this RFQ from the bidding board
+and copy it
+again search for the RFQ then do these
+steps select the
+RFQ and delete
+it and check see the second time we copy
+the RFQ email will still show as
+supplier updates are Global and will
+persist for future
+rfqs search the
+contract let's repeat same steps for
+copying RFQ to the bidding
+board then click on three dots copy to
+the bidding board copy it go to the
+bidding board search for the copied
+RFQ open the contract
+details as you can see the email is
+saved as a final tip we suggest that you
+do email updates in
+bulk to do this go to supplier list and
+find all suppliers with missing email by
+filtering your search and then simply go
+down the list and find up upate emails
+which are
+missing we can apply a filter to easily
+find the missing
+ones click on ADD filter choose email is
+null and hit apply let's remove some
+columns the ones we don't need to make
+quick accessible
+view Save The View as missing emails to
+do that click on the save button then
+save as
+new set a name to your new view then
+simply check this list after copying
+rfqs to First fill in all the missing
+emails before starting the quote request
+process
